@@ -9,21 +9,6 @@ import java.util.regex.*;
 public class LoveLetter {
 
 
-    private static boolean checkPalindrome(String variable) {
-
-
-        StringBuffer rev = new StringBuffer(variable).reverse();
-
-        String strRev = rev.toString();
-
-        if (variable.equalsIgnoreCase(strRev))
-            return true;
-        else
-            return false;
-
-    }
-
-
     static int theLoveLetterMystery(String s) {
 
         int counter=0;
